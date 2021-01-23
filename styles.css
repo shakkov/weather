@@ -1,10 +1,9 @@
-body{
-    margin:0;
-    
+body {
+    margin: 0;
+
 }
 
-.wrapper{
-    
+.wrapper {
     border-radius: 1%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,26 +13,26 @@ body{
     left: 50%;
     height: 75%;
     width: 50%;
-    box-shadow: 35px 32px 15px 2px rgba(89,89,89,1);
+    box-shadow: 35px 32px 15px 2px rgba(89, 89, 89, 1);
 }
 
-.bg{
+.bg {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3),  rgba(0, 0, 0, 0.6));
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
     border-radius: 1%;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
-    font-size:32pt;
+    font-size: 32pt;
     text-shadow: 5px 6px rgba(0, 0, 0, 0.4);
     font-family: 'Coda Caption', sans-serif;
 }
@@ -44,11 +43,11 @@ body{
     border: none;
     border-radius: 1%;
     border-bottom: 1px solid #ccc;
-    border-bottom-style:none;
+    border-bottom-style: none;
     color: black;
-}   
+}
 
-.content button{
+.content button {
     padding: 10px;
     font-size: 16px;
     border-bottom: none;
@@ -56,38 +55,28 @@ body{
     border-radius: 1%;
 }
 
-.hello{
+.hello {
     text-align: center;
 }
 
-.form{
+.form {
     position: absolute;
     height: 65%;
 
 }
 
-#hidden{
+#hidden {
     justify-content: center;
     font-size: 16pt;
     display: none;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.55);
-    top:10%;
+    top: 10%;
     width: 75%;
     border-radius: 1%;
 }
 
+.temperature {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    font-size: 48pt;
+}
