@@ -40,4 +40,4 @@ document.getElementById('sendButton').addEventListener("click", async (event) =>
     }
 })
 
-document.querySelector('.time').textContent = date.getDate() +' ' +  (months[date.getMonth() + 1])
+document.querySelector('.time').textContent = date.getDate() +' ' +  (months[date.getMonth()])
