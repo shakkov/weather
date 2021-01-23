@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    
+}
+
+.wrapper{
+    background-image: url(basic.jpg);
+    border-radius: 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    height: 75%;
+    width: 50%;
+    box-shadow: 35px 32px 15px 2px rgba(89,89,89,1);
+}
+
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3),  rgba(0, 0, 0, 0.6));
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size:32pt;
+    text-shadow: 5px 6px rgba(0, 0, 0, 0.4);
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.content #input {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  } 
+
+.content button{
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    border: none;
+}
+
+.hello{
+    text-align: center;
+}
+
+.form{
+    position: absolute;
+    height: 65%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
