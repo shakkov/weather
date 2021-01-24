@@ -1,8 +1,8 @@
 const API_KEY='28ee77f51a584b67b69563dfa7f5dec4'
 const imagesWeather = {
-    '-1': 'cold.jpg',
-    '0': 'cold.jpg',
-    '1': 'warm.jpg'
+    '-1': 'jpg/cold.jpg',
+    '0': 'jpg/cold.jpg',
+    '1': 'jpg/warm.jpg'
 }
 const months = {
     '0': 'Jan',
@@ -19,8 +19,8 @@ const months = {
     '11': 'Dec'
 }
 const imagesTime = {
-    day : 'day.jpg',
-    night : 'night.jpg'
+    day : 'jpg/day.jpg',
+    night : 'jpg/night.jpg'
 }
 
 let date = new Date()
