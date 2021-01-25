@@ -34,7 +34,7 @@ body {
     color: white;
     font-size: 32pt;
     text-shadow: 5px 6px rgba(0, 0, 0, 0.4);
-    font-family: 'Coda Caption', sans-serif;
+    font-family: 'Russo One', sans-serif;
 }
 
 #input {
@@ -57,7 +57,6 @@ body {
 .form {
     position: absolute;
     height: 65%;
-
 }
 
 #hidden {
@@ -72,6 +71,5 @@ body {
 }
 
 .temperature {
-
     font-size: 48pt;
 }

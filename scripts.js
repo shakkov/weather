@@ -1,4 +1,5 @@
-const API_KEY='28ee77f51a584b67b69563dfa7f5dec4'
+const API_KEY = '28ee77f51a584b67b69563dfa7f5dec4'
+const LANG = 'ru'
 const imagesWeather = {
     '-1': 'jpg/cold.jpg',
     '0': 'jpg/cold.jpg',
@@ -29,10 +30,9 @@ document.getElementById('sendButton').addEventListener("click", async (event) =>
     event.preventDefault()
     document.getElementById('hidden').style.display = 'none'
     const City = document.querySelector('#input').value
-    const res = await fetch (`http://api.openweathermap.org/data/2.5/weather?q=${City}&APPID=${API_KEY}`)
+    const res = await fetch (`http://api.openweathermap.org/data/2.5/weather?q=${City}&APPID=${API_KEY}&lang=${LANG}`)
     const data = await res.json()
    
-
     if(data.cod !== '404') {
         const cels = Math.round(data.main.temp - 273.15)
 
@@ -48,7 +48,7 @@ document.querySelector('.time').textContent = date.getDate() +' ' +  (months[dat
 
 //date.setHours(11)
 
-if(date.getHours() <= 8 || date.getHours() >= 21  ){
+if(date.getHours() <= 8 || date.getHours() >= 20  ){
 document.querySelector('.wrapper').style.backgroundImage = `url(${imagesTime ['night']})`
 } else{
     document.querySelector('.wrapper').style.backgroundImage = `url(${imagesTime ['day']})`
