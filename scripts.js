@@ -25,8 +25,6 @@ const imagesTime = {
 
 let date = new Date()
 
-
-
 document.getElementById('sendButton').addEventListener("click", async (event) => {
     event.preventDefault()
     document.getElementById('hidden').style.display = 'none'
