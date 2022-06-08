@@ -30,7 +30,7 @@ document.getElementById('sendButton').addEventListener("click", async (event) =>
     event.preventDefault()
     document.getElementById('hidden').style.display = 'none'
     const City = document.querySelector('#input').value
-    const res = await fetch (`http://api.openweathermap.org/data/2.5/weather?q=${City}&APPID=${API_KEY}&lang=${LANG}`)
+    const res = await fetch (`https://api.openweathermap.org/data/2.5/weather?q=${City}&APPID=${API_KEY}&lang=${LANG}`)
     const data = await res.json()
    
     if(data.cod !== '404') {
